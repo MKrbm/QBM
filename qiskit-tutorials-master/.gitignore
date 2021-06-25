@@ -1,0 +1,32 @@
+
+__pycache__/
+.cache/
+
+# ignores any checkpoints folder anywhere
+.ipynb_checkpoints/
+
+Qconfig.py
+qiskit/basics/Qconfig_IBMQ_experience.py
+qiskit/basics/Qconfig_IBMQ_network.py
+qiskit/basics/Qconfig_IBMQ_experience_public.py
+
+# editor files
+.vscode/
+.idea/
+
+# Distribution / packaging
+*.egg-info/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+qiskit/basics/Qconfig_IBMQ_experience_staging.py
+
+qiskit/basics/Qconfig_IBMQ_network-dev.py
+.DS_Store
+
+.stestr/
+
+_build/
+tutorials/ignis/cliffords2.pickle
